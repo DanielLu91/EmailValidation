@@ -1,0 +1,6 @@
+create table UserInfo(userId int primary key auto_increment,
+                      userName varchar(20) not null,
+                      password varchar(20) not null,
+                      email varchar(30) not null,
+                      status tinyint not null,
+                      code varchar(60) not null);
